@@ -6,12 +6,12 @@ $(".is-section-light").each(function (index) {
     end: "bottom 10%",
     onEnter: () => {
       $(
-        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-nav-small-blur"
+        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-contact-blur-nav"
       ).addClass("is-light");
     },
     onEnterBack: () => {
       $(
-        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-nav-small-blur"
+        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-contact-blur-nav"
       ).addClass("is-light");
     },
   });
@@ -23,12 +23,12 @@ $(".is-section-dark").each(function (index) {
     end: "bottom 10%",
     onEnter: () => {
       $(
-        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-nav-small-blur"
+        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-contact-blur-nav"
       ).removeClass("is-light");
     },
     onEnterBack: () => {
       $(
-        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-nav-small-blur"
+        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-blur-nav-small, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-contact-blur-nav"
       ).removeClass("is-light");
     },
   });
