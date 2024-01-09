@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(18, 28, 24);
+  background(1, 28, 24);
   dots.forEach((dot) => {
     dot.update();
     dot.render();
