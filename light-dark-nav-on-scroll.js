@@ -6,12 +6,12 @@ $(".is-section-light").each(function (index) {
     end: "bottom 10%",
     onEnter: () => {
       $(
-        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-nav-small-blur, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-contact-blur-nav"
+        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-nav-small-blur, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .dropdown-language-blur, .nav-link-main-blur, .arrow-dropdown-blur, .dropdown-link-blur, .dropdown-language__list-blur.btn-contact-blur-nav"
       ).addClass("is-light");
     },
     onEnterBack: () => {
       $(
-        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-nav-small-blur, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .btn-contact-blur-nav"
+        ".nav-blur, .logo-epivity-blur-nav, .nav-link-blur-nav, .paragraph-btn-blur-nav, .btn-nav-small-blur, .menu-icon-blur_line-top, .menu-icon-blur_line-middle, .menu-icon-blur_line-middle-inner, .menu-icon-blur_line-bottom, .dropdown-language-blur, .nav-link-main-blur, .arrow-dropdown-blur, .dropdown-link-blur, .dropdown-language__list-blur.btn-contact-blur-nav"
       ).addClass("is-light");
     },
   });
